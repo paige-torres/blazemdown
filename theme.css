@@ -1,0 +1,79 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+    display: flex;
+    width: 100%;
+
+    margin: auto;
+    
+    
+}
+
+li {
+  float: left;
+display: inline;
+    flex-grow: 1;
+    padding-right: 20px;
+    
+  
+    
+    
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+    height: 100%;
+    margin-top:  auto;
+    margin-bottom: auto;
+    width:100%;
+    
+        
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+video{
+    width: 100%;
+  height: auto;
+}
+h1 {
+    font-size: 50px;
+    color: #424242;
+}
+p {font-size: 25px;
+color: #424242;
+}
+body {
+    background-color: #E6E6E6;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+ .footer {
+    -webkit-column-count: 3;
+    -moz-column-count:3;
+         column-count: 3;
+        text-align: center;
+        width: 100%;
+
+        }
+a {
+            color: #424242;
+        }
+
+head{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.contact {
+    text-align: center;
+    font-size: 10000px;
+}
